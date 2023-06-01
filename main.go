@@ -5,6 +5,8 @@ import (
 	"math"
 	"math/cmplx"
 	"math/rand"
+
+	basic_structers "./basic_structures"
 )
 
 func add(x int, y int) int {
@@ -79,4 +81,11 @@ func main() {
 	fmt.Println(needInt(Small))
 	fmt.Println(needFloat(Small))
 	fmt.Println(needFloat(Big))
+	basic_structers.Struct()
+	basic_structers.Slices()
+	basic_structers.Pointers()
+	basic_structers.Arrays()
+	basic_structers.Slice_len_cap()
+	basic_structers.Slice_literals()
+	basic_structers.Range()
 }
