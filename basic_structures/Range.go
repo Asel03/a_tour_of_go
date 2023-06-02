@@ -15,4 +15,5 @@ func Range() {
 	for _, v := range pow {
 		fmt.Printf("%d\t", v)
 	}
+	fmt.Println()
 }
